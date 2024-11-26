@@ -1,1 +1,122 @@
-Diagrams.drawio
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="24.8.4">
+  <diagram name="Страница — 1" id="e7fJ2shFmQX2dBB-bGC9">
+    <mxGraphModel dx="954" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-1" value="Начало" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="417" y="20" width="113" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-2" value="Ввод исходного массива" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="353" y="119" width="242" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-3" value="Подсчет количества строк &lt;= 3 символов" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="346" y="217" width="255" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-4" value="Создание нового массива нужного размера" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="349" y="333" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-5" value="index = 0" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="411" y="450" width="125" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-6" value="i &lt; длина исходного массива?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="357" y="548" width="234" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-7" value="Длина строки &lt;= 3?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="118" y="855" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-8" value="Добавить строку в новый массив" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1138" width="247" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-9" value="Увеличить index" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="53" y="1277" width="181" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-10" value="i = i + 1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="248" y="1375" width="114" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-11" value="Вывод результата" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="378" y="936" width="192" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-12" value="Конец" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="421" y="1147" width="105" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="8dCnvovAaVPZx9O_9DuC-1" target="8dCnvovAaVPZx9O_9DuC-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="8dCnvovAaVPZx9O_9DuC-2" target="8dCnvovAaVPZx9O_9DuC-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="8dCnvovAaVPZx9O_9DuC-3" target="8dCnvovAaVPZx9O_9DuC-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="8dCnvovAaVPZx9O_9DuC-4" target="8dCnvovAaVPZx9O_9DuC-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="8dCnvovAaVPZx9O_9DuC-5" target="8dCnvovAaVPZx9O_9DuC-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-18" value="Да" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.81;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="8dCnvovAaVPZx9O_9DuC-6" target="8dCnvovAaVPZx9O_9DuC-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="223" y="819" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-19" value="Да" style="curved=1;startArrow=none;endArrow=block;exitX=0.22;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="8dCnvovAaVPZx9O_9DuC-7" target="8dCnvovAaVPZx9O_9DuC-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="143" y="1102" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="8dCnvovAaVPZx9O_9DuC-8" target="8dCnvovAaVPZx9O_9DuC-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-21" value="Нет" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="8dCnvovAaVPZx9O_9DuC-7" target="8dCnvovAaVPZx9O_9DuC-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="305" y="1102" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.15;rounded=0;" edge="1" parent="1" source="8dCnvovAaVPZx9O_9DuC-9" target="8dCnvovAaVPZx9O_9DuC-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="143" y="1350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.31;entryX=0.93;entryY=1;rounded=0;" edge="1" parent="1" source="8dCnvovAaVPZx9O_9DuC-10" target="8dCnvovAaVPZx9O_9DuC-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="605" y="1350" />
+              <mxPoint x="605" y="819" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-24" value="Нет" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="8dCnvovAaVPZx9O_9DuC-6" target="8dCnvovAaVPZx9O_9DuC-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8dCnvovAaVPZx9O_9DuC-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="8dCnvovAaVPZx9O_9DuC-11" target="8dCnvovAaVPZx9O_9DuC-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
